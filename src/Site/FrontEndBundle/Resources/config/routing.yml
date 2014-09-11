@@ -1,0 +1,15 @@
+site_acceuil:
+    path:     /
+    defaults: { _controller: SiteFrontEndBundle:Main:index }
+
+site_contacts:
+    path:    /contact
+    defaults: { _controller:SiteFrontEndBundle:Main:contact }
+
+site_presse:
+    path:    /presse
+    defaults: { _controller:SiteFrontEndBundle:Main:presse }
+
+site_eshop:
+    path:    /eshop
+    defaults: { _controller:SiteFrontEndBundle:Main:eshop }

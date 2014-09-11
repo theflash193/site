@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}La fille en vert{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('css/bootstrap-responsive.css') }}"/>
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}" />
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        <div class="container">
+        <header class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <ul >
+            </div>
+        </header>
+        {% block body %}{% endblock %}
+        </div>
+        <script src="{{ asset('js/jquery-1.10.0.min.js') }} "></script>
+        <script src="{{ asset('js/bootstrap.js') }}"></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

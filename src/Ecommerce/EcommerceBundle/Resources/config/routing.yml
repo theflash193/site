@@ -1,3 +1,0 @@
-ecommerce_homepage:
-    path:     /
-    defaults: { _controller: EcommerceBundle:Produits:accueil }
